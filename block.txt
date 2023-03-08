@@ -1,0 +1,4 @@
+    vec2 fv#1 = uv - vec2(#2);
+    float r#1 = length(fv#1);
+    float f#1 = 0.025/(0.025 +  r#1*r#1);
+    fv#1 = normalize(fv#1* f#1);
